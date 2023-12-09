@@ -1,24 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<extension type="plugin" group="system" method="upgrade">
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade" version="5.0">
 	<name>plg_system_phocacart</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>07/12/2023</creationDate>
-	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<creationDate>09/12/2023</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
 	<version>5.0.0</version>
-	<description>PLG_SYSTEM_PHOCACART_XML_DESCRIPTION</description>
-	<namespace path="src">Joomla\Plugin\System\PhocaCart</namespace>
+	<description>PLG_SYSTEM_PHOCACART_DESCRIPTION</description>
+	<projectName>PhocaCartSystemPlugin</projectName>
 
 	<files>
-		<folder plugin="phocacart">services</folder>
 		<folder>src</folder>
+		<folder>services</folder>
 	</files>
 
 	<languages>
-		<language tag="en-GB">language/en-GB/plg_system_phocacart.ini</language>
-		<language tag="en-GB">language/en-GB/plg_system_phocacart.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_phocacart.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_phocacart.sys.ini</language>
 	</languages>
 
+	<administration>
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.plg_system_phocacart.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_system_phocacart.sys.ini</language>
+		</languages>
+	</administration>
+	
+	
+
+	<updateservers>
+		<server type="extension" name="PLG_SYSTEM_PHOCACART" priority="1"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaCartSystemPlugin/main/manifest.xml]]></server>
+	</updateservers>
 </extension>

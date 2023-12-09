@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<updates>
+	<update>
+		<name><![CDATA[ Phoca Cart System Plugin ]]></name>
+		<description><![CDATA[ Phoca Cart System Plugin - main Phoca Cart System plugin. ]]></description>
+		<element>phocacart</element>
+		<folder>system</folder>
+		<type>plugin</type>
+		<version>5.0.0</version>
+		<infourl title="Phoca Cart System Plugin 5.0.0">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartSystemPlugin/releases/download/5.0.0/plg_system_phocacart_v5.0.0.zip</downloadurl>
+		</downloads>
+		<sha512>6042b870ce782cb2bca1fc549260c433c785b79a3d754d921d3d026e635787f1aa73a48d4a1c7f46a996b716c5123c94e2f8aeca20433d3f8208db33d718ba10</sha512>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="(4|5)\.*"/>
+		<client>site</client>
+	</update>
+</updates>
