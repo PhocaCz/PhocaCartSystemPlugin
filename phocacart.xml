@@ -2,19 +2,19 @@
 <extension type="plugin" group="system" method="upgrade" version="5.0">
 	<name>plg_system_phocacart</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>09/12/2023</creationDate>
+	<creationDate>12/12/2023</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
 	<version>5.0.0</version>
 	<description>PLG_SYSTEM_PHOCACART_DESCRIPTION</description>
+	<namespace path="src">Joomla\Plugin\System\PhocaCart</namespace>
 	<projectName>PhocaCartSystemPlugin</projectName>
 
 	<files>
 		<folder>src</folder>
-		<folder>services</folder>
-		<filename plugin="phocacart">manifest.xml</filename>
+		<folder plugin="phocacart">services</folder>
 	</files>
 
 	<languages>

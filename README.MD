@@ -52,14 +52,6 @@ Phoca Cart System Plugin - main Phoca Cart System plugin.
 
 
 
-## Version (Joomla! 3.x)
-
-3.5.8
-
-## Version (Joomla! 4.x)
-
-4.0.10
-
 ## Version (Joomla! 5.x)
 
 5.0.0

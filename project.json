@@ -15,7 +15,8 @@
 		"Joomla! - Phoca Cart Demo": "https://www.phoca.cz/phocacartdemo/"
 	},
 	"projectColor": "#129ed9",
-	"projectBranch": "main"
+	"projectBranch": "main",
+	"nameSpace": "Joomla\\Plugin\\System\\PhocaCart"
 }
 
 
