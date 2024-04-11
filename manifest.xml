@@ -11,7 +11,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartSystemPlugin/releases/download/5.0.0/plg_system_phocacart_v5.0.0.zip</downloadurl>
 		</downloads>
-		<sha512>ab393a01509a6621678074174112e17196e80090e42b58f93ea9fffd7cb89ff9050ba9acac1f33b8c7d149294c4d1c72cc1d691fd42db828e23d7a1aeebd747a</sha512>
+		<sha512>37d252b287255ba6a22c00f68d208c0c890e065d79a02c12dbee606746791bf613cf62d09c81e748317dbb35c252f409cea61eb65f912ddec0e6c46ebf7038a4</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
