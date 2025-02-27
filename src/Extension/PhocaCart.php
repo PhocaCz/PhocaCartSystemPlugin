@@ -17,7 +17,6 @@ use Joomla\CMS\Language\Text;
 use Joomla\CMS\Menu\AdministratorMenuItem;
 use Joomla\CMS\Plugin\CMSPlugin;
 use Joomla\CMS\Uri\Uri;
-use Joomla\Database\DatabaseInterface;
 use Phoca\PhocaCart\User\AdvancedACL;
 
 // phpcs:disable PSR1.Files.SideEffects
@@ -103,7 +102,12 @@ final class PhocaCart extends CMSPlugin
 		foreach ($statuses as $status) {
 			$strings['COM_PHOCACART_MAIL_ORDER_STATUS_' . $status->id . '_TITLE'] = Text::_('COM_PHOCACART_MAIL_ORDER_STATUS_TITLE') . ' - ' . Text::_($status->title);
 			$strings['COM_PHOCACART_MAIL_ORDER_STATUS_' . $status->id . '_DESC'] = Text::_('COM_PHOCACART_MAIL_ORDER_STATUS_DESC');
-			$strings['COM_PHOCACART_MAIL_OTHERS_ORDER_STATUS_' . $status->id . '_TITLE'] = Text::_('COM_PHOCACART_MAIL_OTHERS_ORDER_STATUS_TITLE') . ' - ' . Text::_($status->title);
+			$strings['COM_PHOCACART_MAIL_ORDER_STATUS_NOTIFICATION_' . $status->id . '_TITLE'] = Text::_('COM_PHOCACART_MAIL_ORDER_STATUS_NOTIFICATION_TITLE') . ' - ' . Text::_($status->title);
+			$strings['COM_PHOCACART_MAIL_ORDER_STATUS_NOTIFICATION_' . $status->id . '_DESC'] = Text::_('COM_PHOCACART_MAIL_ORDER_STATUS_NOTIFICATION_DESC');
+			$strings['COM_PHOCACART_MAIL_ORDER_STATUS_GIFT_' . $status->id . '_TITLE'] = Text::_('COM_PHOCACART_MAIL_ORDER_STATUS_GIFT_TITLE') . ' - ' . Text::_($status->title);
+			$strings['COM_PHOCACART_MAIL_ORDER_STATUS_GIFT_' . $status->id . '_DESC'] = Text::_('COM_PHOCACART_MAIL_ORDER_STATUS_GIFT_DESC');
+			$strings['COM_PHOCACART_MAIL_ORDER_STATUS_GIFT_NOTIFICATION_' . $status->id . '_TITLE'] = Text::_('COM_PHOCACART_MAIL_ORDER_STATUS_GIFT_NOTIFICATION_TITLE') . ' - ' . Text::_($status->title);
+			$strings['COM_PHOCACART_MAIL_ORDER_STATUS_GIFT_NOTIFICATION_' . $status->id . '_DESC'] = Text::_('COM_PHOCACART_MAIL_ORDER_STATUS_GIFT_NOTIFICATION_DESC');
 		}
 
 		$closure = \Closure::bind(function (array $strings) {
