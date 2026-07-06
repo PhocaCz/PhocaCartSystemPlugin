@@ -31,6 +31,8 @@ use Phoca\PhocaCart\User\AdvancedACL;
 final class PhocaCart extends CMSPlugin
 {
 
+    protected $autoloadLanguage = true;
+
 	public function onPreprocessMenuItems(string $context, array $items): void
 	{
 		if ($context !== 'com_menus.administrator.module') {
