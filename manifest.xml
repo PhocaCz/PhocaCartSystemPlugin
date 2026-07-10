@@ -6,12 +6,51 @@
 		<element>phocacart</element>
 		<folder>system</folder>
 		<type>plugin</type>
-		<version>5.1.1</version>
-		<infourl title="Phoca Cart System Plugin 5.1.1">https://www.phoca.cz/</infourl>
+		<version>3.5.8</version>
+		<infourl title="Phoca Cart System Plugin 3.5.8">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartSystemPlugin/releases/download/5.1.1/plg_system_phocacart_v5.1.1.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartSystemPlugin/releases/download/3.5.8/plg_system_phocacart_v3.5.8.zip</downloadurl>
 		</downloads>
-		<sha512>1e90f51de8fe22a11af8423ac1ab93e7f04923a8955b5d6f3b4d5ac90124b7612e91f87f1147b85fd3fc44f9d45d60272911092903230b228a00a3c5651c5218</sha512>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="3.([89]|10)"/>
+		<client>site</client>
+	</update>
+	<update>
+		<name><![CDATA[ Phoca Cart System Plugin ]]></name>
+		<description><![CDATA[ Phoca Cart System Plugin - main Phoca Cart System plugin. ]]></description>
+		<element>phocacart</element>
+		<folder>system</folder>
+		<type>plugin</type>
+		<version>4.0.12</version>
+		<infourl title="Phoca Cart System Plugin 4.0.12">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartSystemPlugin/releases/download/4.0.12/plg_system_phocacart_v4.0.12.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="4\.*"/>
+		<client>site</client>
+	</update>
+	<update>
+		<name><![CDATA[ Phoca Cart System Plugin ]]></name>
+		<description><![CDATA[ Phoca Cart System Plugin - main Phoca Cart System plugin. ]]></description>
+		<element>phocacart</element>
+		<folder>system</folder>
+		<type>plugin</type>
+		<version>5.2.3</version>
+		<infourl title="Phoca Cart System Plugin 5.2.3">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartSystemPlugin/releases/download/5.2.3/plg_system_phocacart_v5.2.3.zip</downloadurl>
+		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
@@ -27,12 +66,12 @@
 		<element>phocacart</element>
 		<folder>system</folder>
 		<type>plugin</type>
-		<version>6.1.0</version>
-		<infourl title="Phoca Cart System Plugin 6.1.0">https://www.phoca.cz/</infourl>
+		<version>6.1.3</version>
+		<infourl title="Phoca Cart System Plugin 6.1.3">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartSystemPlugin/releases/download/6.1.0/plg_system_phocacart_v6.1.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartSystemPlugin/releases/download/6.1.3/plg_system_phocacart_v6.1.3.zip</downloadurl>
 		</downloads>
-		<sha512>38c3e4aee03666f03f2f2e427f33e003147920e39bc2e2b2a27dcaea7a919516abd429fe009eb7d5bc79a68528445ddf7428485b7feb2cb047de9dacfd702b89</sha512>
+		<sha512>6e35fe24a9d1d89785f8172ac4339597827678f4a2133c45aebcce3d4353ca842350aca94c66ab7e03236e26dcc59ae5d95f61146e49a4ba84df7665b0036f78</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
