@@ -66,19 +66,19 @@
 		<element>phocacart</element>
 		<folder>system</folder>
 		<type>plugin</type>
-		<version>6.1.3</version>
-		<infourl title="Phoca Cart System Plugin 6.1.3">https://www.phoca.cz/</infourl>
+		<version>6.1.6</version>
+		<infourl title="Phoca Cart System Plugin 6.1.6">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartSystemPlugin/releases/download/6.1.3/plg_system_phocacart_v6.1.3.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartSystemPlugin/releases/download/6.1.6/plg_system_phocacart_v6.1.6.zip</downloadurl>
 		</downloads>
-		<sha512>6e35fe24a9d1d89785f8172ac4339597827678f4a2133c45aebcce3d4353ca842350aca94c66ab7e03236e26dcc59ae5d95f61146e49a4ba84df7665b0036f78</sha512>
+		<sha512>56d4715a63db5901493a778d29d227b7603d79c7d3d0461e59632a7a5ddc884e6615b7bedb33df48eab200f481abcd036054adbbae5f11acdc00f7be71c834f2</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
 		<maintainerurl>https://www.phoca.cz/</maintainerurl>
 		<section>Updates</section>
-		<targetplatform name="joomla" version="(5|6)\.*"/>
+		<targetplatform name="joomla" version="6\.*"/>
 		<client>site</client>
 	</update>
 </updates>
